@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UI/UX Design &amp; AI Course — Desun Academy</title>
+  <meta name="description" content="Start your career with UI/UX Design &amp; AI at Desun Academy: a 6-month offline course in Kolkata with live projects, internship with stipend and 100% placement support.">
+  <meta name="theme-color" content="#0F7600">
+  <link rel="icon" href="assets/img/logo.jpg">
+  <link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/courses.css">
+  <script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('a-js');</script>
+</head>
+<body class="page-about page-courses" data-motion="custom">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ======================= ICON SPRITE ======================= -->
+<!-- ======================= ICON SPRITE (one library: Lucide-style outline, 1.75 stroke) ======================= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5v14"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></symbol>
+    <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect width="20" height="14" x="2" y="6" rx="2"/></symbol>
+    <symbol id="i-repeat" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></symbol>
+    <symbol id="i-rupee" viewBox="0 0 24 24"><path d="M6 3h12"/><path d="M6 8h12"/><path d="m6 13 8.5 8"/><path d="M6 13h3"/><path d="M9 13c6.667 0 6.667-10 0-10"/></symbol>
+    <symbol id="i-vol-x" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><line x1="22" x2="16" y1="9" y2="15"/><line x1="16" x2="22" y1="9" y2="15"/></symbol>
+    <symbol id="i-vol-2" viewBox="0 0 24 24"><path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.364 18.364a9 9 0 0 0 0-12.728"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><rect x="14" y="4" width="4" height="16" rx="1"/><rect x="6" y="4" width="4" height="16" rx="1"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+    <symbol id="i-circle-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header" id="top">
+  <div class="a-progress" aria-hidden="true"></div>
+  <div class="container site-header__inner">
+    <a class="brand" href="index.html" aria-label="Desun Academy — home"><img src="assets/img/logo.jpg" alt="Desun Academy" width="207" height="61"></a>
+    <nav class="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="about.html">About</a></li>
+        <li><a class="nav__link" href="success.html">Success stories</a></li>
+        <li><a class="nav__link" href="interview.html">Interviews</a></li>
+        <li><a class="nav__link is-active" href="courses.html" aria-current="page">Courses</a></li>
+        <li><a class="nav__link" href="testimonials.html">Testimonials</a></li>
+        <li><a class="nav__link" href="hire.html">Hire from us</a></li>
+        <li><a class="nav__link" href="events.html">Events</a></li>
+        <li><a class="nav__link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="btn btn--md header-cta" type="button" data-open-form="counselling">Book free counselling</button>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobileNav" id="menuBtn">
+      <svg class="icon icon--24" aria-hidden="true"><use href="#i-menu"/></svg><span>Menu</span>
+    </button>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a class="mobile-nav__link" href="about.html">About</a>
+    <a class="mobile-nav__link" href="success.html">Success stories</a>
+    <a class="mobile-nav__link" href="interview.html">Interviews</a>
+    <a class="mobile-nav__link is-active" href="courses.html" aria-current="page">Courses</a>
+    <a class="mobile-nav__link" href="testimonials.html">Testimonials</a>
+    <a class="mobile-nav__link" href="hire.html">Hire from us</a>
+    <a class="mobile-nav__link" href="events.html">Events</a>
+    <a class="mobile-nav__link" href="contact.html">Contact</a>
+    <button class="btn btn--block" type="button" data-open-form="counselling">Book free counselling</button>
+  </div>
+</header>
+<nav class="c-rail" id="cRail" aria-label="Page sections"></nav>
+<main id="main">
+<!-- ============ HERO ============ -->
+<section class="c-hero" aria-labelledby="cTitle" data-rail="Overview" id="top-hero">
+  <div class="container c-hero__inner">
+    <div class="c-hero__copy">
+      <p class="c-eyebrow">Learn UI/UX Design with AI</p>
+      <p class="c-meta"><b>DESUN ACADEMY</b><span aria-hidden="true">|</span><span>6 MONTHS COURSE</span></p>
+      <h1 class="display c-title" id="cTitle"><span class="c-title__l">Start Your Career with</span> <span class="c-sel"><span class="c-sel__t">UI/UX DESIGN &amp; AI</span><span class="c-sel__box" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="c-sel__tag" aria-hidden="true">You</span></span></h1>
+      <p class="c-sub"><strong>Learn AI Tools</strong> and Earn <strong>3-4 LPA</strong> Salary as a Fresher</p>
+      <div class="c-hero__cta"><button class="btn" type="button" data-open-form="counselling">Request A Call Back</button></div>
+      <div class="c-recog"><p class="label">Recognised by</p><div class="c-recog__logos">
+        <img src="assets/img/recog-zee.png" alt="Zee 24 Ghanta" width="117" height="60"><img src="assets/img/recog-ctvn.png" alt="CTVN Plus" width="109" height="58"><img src="assets/img/recog-tv9.png" alt="TV9 Bangla" width="74" height="63"><img src="assets/img/recog-cn.png" alt="Calcutta News" width="55" height="79"></div></div>
+    </div>
+    <div class="c-wall" aria-hidden="true"><ul class="c-wall__col"><li><img src="assets/img/about/reel-1.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-4.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-7.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-10.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-3.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-1.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-4.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-7.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-10.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-3.jpg" alt="" width="144" height="257" loading="eager"></li></ul><ul class="c-wall__col"><li><img src="assets/img/about/reel-5.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-8.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-2.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-6.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-9.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-5.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-8.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-2.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-6.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-9.jpg" alt="" width="144" height="257" loading="eager"></li></ul><ul class="c-wall__col"><li><img src="assets/img/about/reel-9.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-3.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-6.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-1.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-7.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-9.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-3.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-6.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-1.jpg" alt="" width="144" height="257" loading="eager"></li><li><img src="assets/img/about/reel-7.jpg" alt="" width="144" height="257" loading="eager"></li></ul></div>
+  </div>
+</section>
+
+<!-- ============ TICKER ============ -->
+<div class="c-ticker" aria-label="Course highlights">
+  <ul class="c-ticker__track">
+    <li><span>01</span>6 Months Course</li><li><span>02</span>Lead by Industry Experts (9+ Years Experience)</li><li><span>03</span>100% Placement Guarantee + Moneyback Offer</li><li><span>04</span>Offline Classes (Kolkata &ndash; Sector V)</li><li aria-hidden="true"><span>01</span>6 Months Course</li><li aria-hidden="true"><span>02</span>Lead by Industry Experts (9+ Years Experience)</li><li aria-hidden="true"><span>03</span>100% Placement Guarantee + Moneyback Offer</li><li aria-hidden="true"><span>04</span>Offline Classes (Kolkata &ndash; Sector V)</li>
+  </ul>
+</div>
+
+<!-- ============ PARTNERS ============ -->
+<section class="c-partners" aria-labelledby="cPartners">
+  <div class="container"><h2 class="h2 c-center" id="cPartners"><span class="c-green"><span data-count="400">400</span>+</span> Placement Partners</h2></div>
+  <div class="container a-partners__rows">
+    <div class="marquee" data-marquee style="--dur:44s">
+      <div class="marquee__track">
+        <img class="partner-logo" src="assets/img/logo-webhibe.png" alt="Webhibe Technologies" height="40">
+        <img class="partner-logo" src="assets/img/partner-accenture.png" alt="Accenture" height="40">
+        <img class="partner-logo" src="assets/img/partner-yoodigi.png" alt="Yoodigi" height="40">
+        <img class="partner-logo" src="assets/img/partner-webingo.png" alt="Webingo" height="40">
+        <img class="partner-logo" src="assets/img/partner-itc.png" alt="ITC Infotech" height="40">
+        <img class="partner-logo" src="assets/img/partner-infinityfree.png" alt="InfinityFree" height="40">
+        <img class="partner-logo" src="assets/img/partner-mumuso.png" alt="Mumuso" height="40">
+      </div>
+    </div>
+    <div class="marquee marquee--reverse" data-marquee style="--dur:52s">
+      <div class="marquee__track">
+        <img class="partner-logo" src="assets/img/partner-capgemini.png" alt="Capgemini" height="40">
+        <img class="partner-logo" src="assets/img/logo-desun-tech.png" alt="Desun Technology Pvt Ltd" height="40">
+        <img class="partner-logo" src="assets/img/partner-sigmapro.png" alt="Sigmapro" height="40">
+        <img class="partner-logo" src="assets/img/partner-avm.png" alt="AVM Station" height="40">
+        <img class="partner-logo" src="assets/img/partner-edtech.png" alt="House of Edtech" height="40">
+        <img class="partner-logo" src="assets/img/partner-dalmia.png" alt="Dalmia Financial Services" height="40">
+        <img class="partner-logo" src="assets/img/partner-shyamsteel.png" alt="Shyam Steel" height="40">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ ABOUT THE COURSE ============ -->
+<section class="c-about" id="overview" data-rail="The course" aria-labelledby="cAbout">
+  <div class="container c-about__grid">
+    <div class="c-about__head">
+      <p class="c-kicker">About The Course</p>
+      <h2 class="h2" id="cAbout">Learn UI/UX Design from fundamentals to real-world projects at Desun</h2>
+      <p class="c-about__count" aria-hidden="true"><span class="c-about__cur" id="stackCur">01</span><span>/ 06</span></p>
+    </div>
+    <ol class="c-stack" id="cStack"><li class="c-card" style="--i:0"><span class="c-card__n" aria-hidden="true">01</span><span class="c-card__ic" aria-hidden="true"><svg class="icon icon--24"><use href="#i-check"/></svg></span><div><p class="c-card__d">UI/UX designers with 9+ years of real-world experience</p></div></li><li class="c-card" style="--i:1"><span class="c-card__n" aria-hidden="true">02</span><span class="c-card__ic" aria-hidden="true"><svg class="icon icon--24"><use href="#i-check"/></svg></span><div><p class="c-card__d">&hellip;wireframes, and prototypes used in top startups</p></div></li><li class="c-card" style="--i:2"><span class="c-card__n" aria-hidden="true">03</span><span class="c-card__ic" aria-hidden="true"><svg class="icon icon--24"><use href="#i-check"/></svg></span><div><h3 class="c-card__t">Live Projects &amp; Portfolio Building</h3><p class="c-card__d">Start building your job portfolio from Day 1</p></div></li><li class="c-card" style="--i:3"><span class="c-card__n" aria-hidden="true">04</span><span class="c-card__ic" aria-hidden="true"><svg class="icon icon--24"><use href="#i-check"/></svg></span><div><h3 class="c-card__t">Industry-Aligned Training</h3><p class="c-card__d">Hands-on sessions with case studies and real-world applications</p></div></li><li class="c-card" style="--i:4"><span class="c-card__n" aria-hidden="true">05</span><span class="c-card__ic" aria-hidden="true"><svg class="icon icon--24"><use href="#i-check"/></svg></span><div><h3 class="c-card__t">AI Tool Integration</h3><p class="c-card__d">Master Figma AI, Uizard, ChatGPT, Canva, Notion &amp; more</p></div></li><li class="c-card" style="--i:5"><span class="c-card__n" aria-hidden="true">06</span><span class="c-card__ic" aria-hidden="true"><svg class="icon icon--24"><use href="#i-check"/></svg></span><div><h3 class="c-card__t">Visual Design</h3><p class="c-card__d">Learn typography, color, grids, components, and visual hierarchy.</p></div></li></ol>
+  </div>
+</section>
+
+<!-- ============ IMPACT ============ -->
+<section class="c-impact" id="impact" data-rail="Outcomes" aria-labelledby="cImpact">
+  <div class="container">
+    <h2 class="h2 c-center" id="cImpact">Desun Academy Has Helped Build <span class="c-green"><span data-count="400">400</span>+</span> Careers</h2>
+    <div class="c-impact__grid">
+      <ul class="c-badges">
+        <li class="c-badge"><div class="c-badge__ring"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52" pathLength="100"/></svg><svg class="icon icon--32 c-badge__ic" aria-hidden="true"><use href="#i-cap"/></svg></div><p class="c-badge__v">100%</p><p class="c-badge__l">Placement Support</p></li>
+        <li class="c-badge"><div class="c-badge__ring"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52" pathLength="100"/></svg><svg class="icon icon--32 c-badge__ic" aria-hidden="true"><use href="#i-briefcase"/></svg></div><p class="c-badge__v">Internship</p><p class="c-badge__l">With Stipend</p></li>
+        <li class="c-badge"><div class="c-badge__ring"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52" pathLength="100"/></svg><svg class="icon icon--32 c-badge__ic" aria-hidden="true"><use href="#i-repeat"/></svg></div><p class="c-badge__v">Job Guarantee</p><p class="c-badge__l">Or Money-Back Offer</p></li>
+      </ul>
+      <div class="c-salary on-dark">
+        <p class="c-salary__v"><span data-count="6">6</span>LPA+</p>
+        <div class="c-range" aria-hidden="true"><div class="c-range__bar"><i class="c-range__fill"></i><i class="c-range__dot"></i></div><div class="c-range__ends"><span>&#8377;3 LPA</span><span>&#8377;6 LPA</span></div></div>
+        <p class="c-salary__d">Graduates have received starting salaries ranging from &#8377;3 LPA to &#8377;6 LPA based on their portfolio strength.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROGRAMMES ============ -->
+<section class="c-prog" id="programmes" data-rail="Programmes" aria-labelledby="cProg">
+  <div class="container">
+    <h2 class="visually-hidden sr-only" id="cProg">Programmes</h2>
+    <div class="c-seg" role="tablist" aria-label="Programmes">
+      <i class="c-seg__thumb" aria-hidden="true"></i>
+      <button class="c-seg__b" role="tab" id="pt-0" aria-selected="true" aria-controls="pp-0">Foundation Programme</button>
+      <button class="c-seg__b" role="tab" id="pt-1" aria-selected="false" aria-controls="pp-1" tabindex="-1">Professional Programme</button>
+      <button class="c-seg__b" role="tab" id="pt-2" aria-selected="false" aria-controls="pp-2" tabindex="-1">Master Class</button>
+    </div>
+    <div class="c-prog__stage on-dark">
+      <div class="c-prog__panel is-on" role="tabpanel" id="pp-0" aria-labelledby="pt-0">
+        <header class="c-prog__head">
+          <div><p class="c-prog__tag">Ui-Ux Basic <span aria-hidden="true">|</span> Best for Beginners</p><h3 class="c-prog__title">Learn UI/UX Foundation Programme</h3></div>
+          <dl class="c-prog__facts"><div><dd>4+</dd><dt>(4k+ Ratings)</dt></div><div><dd>3</dd><dt>Months</dt></div></dl>
+        </header>
+        <ul class="c-prog__list"><li class="is-yes"><span class="c-prog__ic" aria-hidden="true"><svg class="icon icon--20"><use href="#i-check"/></svg></span><span><span class="sr-only">Included: </span>UI/UX Fundamentals + Visual Design Basics</span></li><li class="is-yes"><span class="c-prog__ic" aria-hidden="true"><svg class="icon icon--20"><use href="#i-check"/></svg></span><span><span class="sr-only">Included: </span>Design Thinking Basics- Color, Typography &amp; Layouts- Canva &amp; Figma Essentials- Intro to AI Tools (Uizard, ChatGPT)- Mini Projects</span></li><li class="is-yes"><span class="c-prog__ic" aria-hidden="true"><svg class="icon icon--20"><use href="#i-check"/></svg></span><span><span class="sr-only">Included: </span>3 guided projects</span></li><li class="is-yes"><span class="c-prog__ic" aria-hidden="true"><svg class="icon icon--20"><use href="#i-check"/></svg></span><span><span class="sr-only">Included: </span>Course Certificate</span></li><li class="is-yes"><span class="c-prog__ic" aria-hidden="true"><svg class="icon icon--20"><use href="#i-check"/></svg></span><span><span class="sr-only">Included: </span>Placement Opportunity</span></li><li class="is-yes"><span class="c-prog__ic" aria-hidden="true"><svg class="icon icon--20"><use href="#i-check"/></svg></span><span><span class="sr-only">Included: </span>Interview Preparation</span></li><li class="is-yes"><span class="c-prog__ic" aria-hidden="true"><svg class="icon icon--20"><use href="#i-check"/></svg></span><span><span class="sr-only">Included: </span>Resume writing</span></li><li class="is-no"><span class="c-prog__ic" aria-hidden="true"><svg class="icon icon--20"><use href="#i-x"/></svg></span><span><span class="sr-only">Not included: </span>Career Support</span></li><li class="is-no"><span class="c-prog__ic" aria-hidden="true"><svg class="icon icon--20"><use href="#i-x"/></svg></span><span><span class="sr-only">Not included: </span>Internship &amp; Money Back</span></li><li class="is-no"><span class="c-prog__ic" aria-hidden="true"><svg class="icon icon--20"><use href="#i-x"/></svg></span><span><span class="sr-only">Not included: </span>One-to-One Portfolio Review + Access to Job Portal</span></li></ul>
+        <footer class="c-prog__foot"><p class="c-prog__price">&#8377;75000/-</p><button class="btn btn--inverse" type="button" data-open-form="counselling">Enroll Now</button></footer>
+      </div>
+      <!-- PLACEHOLDER: the PDF only shows the Foundation programme. Add Professional and Master Class details here. -->
+      <div class="c-prog__panel" role="tabpanel" id="pp-1" aria-labelledby="pt-1" hidden>
+        <h3 class="c-prog__title">Professional Programme</h3><p class="c-prog__soon">Programme details are being finalised. Talk to a counsellor for the current curriculum and fee.</p><button class="btn btn--inverse" type="button" data-open-form="counselling">Request A Call Back</button>
+      </div>
+      <div class="c-prog__panel" role="tabpanel" id="pp-2" aria-labelledby="pt-2" hidden>
+        <h3 class="c-prog__title">Master Class</h3><p class="c-prog__soon">Programme details are being finalised. Talk to a counsellor for the current curriculum and fee.</p><button class="btn btn--inverse" type="button" data-open-form="counselling">Request A Call Back</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TOOLS ============ -->
+<section class="c-tools" id="tools" data-rail="Tools" aria-labelledby="cTools">
+  <div class="container"><h2 class="h2 c-center" id="cTools">Tools &amp; Technologies</h2><ul class="c-dock" id="cDock"><li class="c-dock__i"><img src="assets/img/courses/tool-canva.png" alt="Canva" width="80" height="80" loading="lazy"></li><li class="c-dock__i"><img src="assets/img/courses/tool-figma.png" alt="Figma" width="80" height="80" loading="lazy"></li><li class="c-dock__i"><img src="assets/img/courses/tool-framer.png" alt="Framer" width="80" height="80" loading="lazy"></li><li class="c-dock__i"><img src="assets/img/courses/tool-chatgpt.png" alt="ChatGPT" width="80" height="80" loading="lazy"></li><li class="c-dock__i"><img src="assets/img/courses/tool-stitch.png" alt="Stitch" width="80" height="80" loading="lazy"></li><li class="c-dock__i"><img src="assets/img/courses/tool-behance.png" alt="Behance" width="80" height="80" loading="lazy"></li><li class="c-dock__i"><img src="assets/img/courses/tool-lovable.png" alt="Lovable" width="80" height="80" loading="lazy"></li></ul></div>
+</section>
+
+<!-- ============ MENTOR ============ -->
+<section class="c-mentor on-dark" id="mentor" data-rail="Mentor" aria-labelledby="cMentor">
+  <div class="c-mentor__bgtxt" aria-hidden="true"><span>UI/UX TRAINER &nbsp;&bull;&nbsp; UI/UX TRAINER &nbsp;&bull;&nbsp; UI/UX TRAINER &nbsp;&bull;&nbsp; UI/UX TRAINER &nbsp;&bull;&nbsp;</span></div>
+  <div class="container c-mentor__grid">
+    <div class="c-mentor__copy">
+      <p class="c-kicker c-kicker--dark">Instructors / Mentors</p>
+      <h2 class="h2" id="cMentor">Learn from the top 1% of practitioners.</h2>
+      <p class="c-mentor__name">DEEP PRAMANIK</p>
+      <p class="c-mentor__role">UI/UX TRAINER | DESUN ACADEMY</p>
+    </div>
+    <figure class="c-mentor__fig"><div class="c-mentor__photo"><img src="assets/img/mentor-3.jpg" alt="Deep Pramanik, UI/UX trainer at Desun Academy" width="400" height="500" loading="lazy"></div>
+      <figcaption class="c-mentor__chip"><span><b data-count="6">6</b>+ Years</span><small>Of Experience</small><a class="c-mentor__in" href="#" aria-label="Deep Pramanik on LinkedIn"><svg class="icon icon--20" aria-hidden="true"><use href="#i-linkedin"/></svg></a></figcaption></figure>
+  </div>
+</section>
+
+<!-- ============ STORIES ============ -->
+<section class="c-stories" id="stories" data-rail="Stories" aria-labelledby="cStories">
+  <div class="container">
+    <h2 class="h2 c-center" id="cStories">Their Journey to Success</h2>
+    <div class="c-story">
+      <div class="c-story__tabs" role="tablist" aria-label="Placement stories" aria-orientation="vertical"><i class="c-story__hl" aria-hidden="true"></i><button class="c-story__tab" role="tab" id="st-0" aria-selected="true" aria-controls="sp-0" tabindex="0"><span class="c-story__n">01</span><span class="c-story__who"><b>Saptak Kar</b><small>UI/UX designer</small></span></button><button class="c-story__tab" role="tab" id="st-1" aria-selected="false" aria-controls="sp-1" tabindex="-1"><span class="c-story__n">02</span><span class="c-story__who"><b>Rahul Shaw</b><small>UI/UX designer</small></span></button><button class="c-story__tab" role="tab" id="st-2" aria-selected="false" aria-controls="sp-2" tabindex="-1"><span class="c-story__n">03</span><span class="c-story__who"><b>Sourav Biswas</b><small>UI/UX designer</small></span></button></div>
+      <div class="c-story__stage"><article class="c-story__panel is-on" role="tabpanel" id="sp-0" aria-labelledby="st-0"><div class="c-story__photo"><img src="assets/img/story-1.jpg" alt="Saptak Kar, UI/UX designer" width="468" height="751" loading="lazy"></div><div class="c-story__txt"><span class="c-story__big" aria-hidden="true">01</span><h3 class="h3">Placement Story Of Saptak Kar</h3><p class="label c-story__role">UI/UX DESIGNER</p><p>Saptak Kar&rsquo;s journey is a story of dedication, skill-building and confidence. With the right guidance and hands-on client projects at Desun Academy, he built a strong portfolio and stepped into a UI/UX design role at Google.</p></div><div class="c-story__logo"><img src="assets/img/logo-google.png" alt="Google" height="56" loading="lazy"></div></article><article class="c-story__panel" role="tabpanel" id="sp-1" aria-labelledby="st-1" hidden><div class="c-story__txt"><span class="c-story__big" aria-hidden="true">02</span><h3 class="h3">Placement Story Of Rahul Shaw</h3><p class="label c-story__role">UI/UX DESIGNER</p><p>Rahul Shaw&rsquo;s story is one of learning, growth and career success. Working on real client projects sharpened his design skills and led him to a UI/UX designer role at Desun Technology Pvt Ltd.</p></div><div class="c-story__logo"><img src="assets/img/logo-desun-tech.png" alt="Desun Technology Pvt Ltd" height="56" loading="lazy"></div></article><article class="c-story__panel" role="tabpanel" id="sp-2" aria-labelledby="st-2" hidden><div class="c-story__txt"><span class="c-story__big" aria-hidden="true">03</span><h3 class="h3">Placement Story Of Sourav Biswas</h3><p class="label c-story__role">UI/UX DESIGNER</p><p>Sourav Biswas turned practical training into a career at Webhibe Technologies. Mentor reviews and real project work helped him grow from learner to working UI/UX designer.</p></div><div class="c-story__logo"><img src="assets/img/logo-webhibe.png" alt="Webhibe Technologies" height="56" loading="lazy"></div></article></div>
+    </div>
+    <div class="c-banner on-dark"><p><strong>From Students to Professionals</strong> &mdash; Explore Our Success Stories, Showcasing Real Career Journeys, Industry Placements, and the Transformative Impact of Skill-Based Education.</p><a class="btn btn--inverse" href="index.html#success">See More</a></div>
+  </div>
+</section>
+
+<!-- ============ OUTCOMES ============ -->
+<section class="c-out" id="outcomes" aria-labelledby="cOut">
+  <div class="container">
+    <h2 class="h2 c-center" id="cOut">The Career Outcomes You Can Unlock</h2>
+    <!-- PLACEHOLDER: the PDF repeats the same card three times. Add the other audiences (e.g. working professionals) as more .c-out__card blocks. -->
+    <article class="c-out__card">
+      <div class="c-out__top on-dark"><span class="c-out__ic" aria-hidden="true"><svg class="icon icon--24"><use href="#i-cap"/></svg></span><h3 class="h3">Students &amp; freshers</h3><p>Kickstart your career with in-demand, AI-powered digital marketing skills straight out of school or college.</p></div>
+      <div class="c-out__body"><h4 class="c-out__h">Program Key Features</h4>
+        <ul class="c-out__list"><li>Start earning while studying</li><li>Build impressive portfolio</li><li>Get industry-ready skills</li><li>100% Job assistance</li></ul>
+        <button class="btn" type="button" data-open-form="counselling">Start Your Career Journey</button></div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATE ============ -->
+<section class="c-cert" id="certificate" data-rail="Certificate" aria-labelledby="cCert">
+  <div class="container">
+    <h2 class="h2 c-center" id="cCert">Certificates</h2>
+    <!-- PLACEHOLDER: the PDF also has an "Internship Certificate" tab with no content. The certificate image is the design's sample (name and body text are template filler). -->
+    <div class="c-cert__grid">
+      <ul class="c-cert__list">
+        <li><h3 class="c-cert__t">Industry-Recognised Certification:</h3><p>Gain credibility and recognition with a trusted certification that enhances your professional profile.</p></li>
+        <li><h3 class="c-cert__t">Get Noticed by Recruiters:</h3><p>Boost your career prospects by mastering ui-ux Design skills valued across industries.</p></li>
+        <li><h3 class="c-cert__t">Lifetime Value:</h3><p>The UI UX Design Course Certificate and acquired skills hold long-term value, remaining relevant and respected throughout your professional career.</p></li>
+      </ul>
+      <figure class="c-cert__fig" id="certFig"><p class="c-cert__tag label">Course Certificate</p><div class="c-cert__img"><img src="assets/img/courses/certificate.jpg" alt="Sample Desun Academy course certificate" width="632" height="447" loading="lazy"><i class="c-cert__sheen" aria-hidden="true"></i></div></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPARE ============ -->
+<section class="c-cmp" id="compare" data-rail="Compare" aria-labelledby="cCmp">
+  <div class="container">
+    <h2 class="h2 c-center" id="cCmp">Where Others Stop, Desun Academy Takes You Further</h2>
+    <div class="c-cmp__wrap"><table class="c-cmp__t"><thead><tr><th scope="col">Features</th><th scope="col" class="c-cmp__us">Desun Academy</th><th scope="col">Others</th></tr></thead><tbody><tr><th scope="row">Live Classes</th><td class="c-cmp__us"><span class="c-cmp__b is-yes"><svg class="icon icon--20" aria-hidden="true"><use href="#i-check"/></svg><span class="sr-only">Yes</span></span></td><td><span class="c-cmp__b is-no"><svg class="icon icon--20" aria-hidden="true"><use href="#i-x"/></svg><span class="sr-only">Not offered</span></span><span class="c-cmp__note">(Mostly recorded)</span></td></tr><tr><th scope="row">Structured Curriculum</th><td class="c-cmp__us"><span class="c-cmp__b is-yes"><svg class="icon icon--20" aria-hidden="true"><use href="#i-check"/></svg><span class="sr-only">Yes</span></span></td><td><span class="c-cmp__b is-no"><svg class="icon icon--20" aria-hidden="true"><use href="#i-x"/></svg><span class="sr-only">Not offered</span></span><span class="c-cmp__note">(Scattered Content)</span></td></tr><tr><th scope="row">1:1 Mentorship</th><td class="c-cmp__us"><span class="c-cmp__b is-yes"><svg class="icon icon--20" aria-hidden="true"><use href="#i-check"/></svg><span class="sr-only">Yes</span></span></td><td><span class="c-cmp__b is-no"><svg class="icon icon--20" aria-hidden="true"><use href="#i-x"/></svg><span class="sr-only">Not offered</span></span></td></tr><tr><th scope="row">Placement Support</th><td class="c-cmp__us"><span class="c-cmp__b is-yes"><svg class="icon icon--20" aria-hidden="true"><use href="#i-check"/></svg><span class="sr-only">Yes</span></span></td><td><span class="c-cmp__b is-no"><svg class="icon icon--20" aria-hidden="true"><use href="#i-x"/></svg><span class="sr-only">Not offered</span></span></td></tr><tr><th scope="row">Real-World Projects</th><td class="c-cmp__us"><span class="c-cmp__b is-yes"><svg class="icon icon--20" aria-hidden="true"><use href="#i-check"/></svg><span class="sr-only">Yes</span></span></td><td><span class="c-cmp__b is-part"><svg class="icon icon--20" aria-hidden="true"><use href="#i-alert"/></svg><span class="sr-only">Limited</span></span><span class="c-cmp__note">(Limited)</span></td></tr><tr><th scope="row">Full Client Engagement Capstone</th><td class="c-cmp__us"><span class="c-cmp__b is-yes"><svg class="icon icon--20" aria-hidden="true"><use href="#i-check"/></svg><span class="sr-only">Yes</span></span></td><td><span class="c-cmp__b is-no"><svg class="icon icon--20" aria-hidden="true"><use href="#i-x"/></svg><span class="sr-only">Not offered</span></span></td></tr><tr><th scope="row">NASSCOM Certification</th><td class="c-cmp__us"><span class="c-cmp__b is-yes"><svg class="icon icon--20" aria-hidden="true"><use href="#i-check"/></svg><span class="sr-only">Yes</span></span></td><td><span class="c-cmp__b is-no"><svg class="icon icon--20" aria-hidden="true"><use href="#i-x"/></svg><span class="sr-only">Not offered</span></span></td></tr><tr><th scope="row">Resume + Mock Interviews</th><td class="c-cmp__us"><span class="c-cmp__b is-yes"><svg class="icon icon--20" aria-hidden="true"><use href="#i-check"/></svg><span class="sr-only">Yes</span></span></td><td><span class="c-cmp__b is-no"><svg class="icon icon--20" aria-hidden="true"><use href="#i-x"/></svg><span class="sr-only">Not offered</span></span></td></tr><tr><th scope="row">Lifetime Success Portal</th><td class="c-cmp__us"><span class="c-cmp__b is-yes"><svg class="icon icon--20" aria-hidden="true"><use href="#i-check"/></svg><span class="sr-only">Yes</span></span></td><td><span class="c-cmp__b is-no"><svg class="icon icon--20" aria-hidden="true"><use href="#i-x"/></svg><span class="sr-only">Not offered</span></span></td></tr></tbody></table></div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="c-cta on-dark" id="enrol" data-rail="Enrol" aria-labelledby="cCta">
+  <div class="container c-cta__grid">
+    <div class="c-cta__fig" aria-hidden="true"><i class="c-cta__ring c-cta__ring--1"></i><i class="c-cta__ring c-cta__ring--2"></i><div class="c-cta__photo"><img src="assets/img/courses/counsellor.jpg" alt="" width="428" height="378" loading="lazy"></div></div>
+    <div class="c-cta__copy">
+      <h2 class="h2" id="cCta">Plan Your UI/UX Course With Confidence</h2>
+      <p class="h3 c-cta__lead">Contact with our admission counsellor to:</p>
+      <ul class="c-cta__list"><li>See if Desun&rsquo;s UI/UX matches your career goals</li><li>Discover how best students for top placements</li><li>Explore scholarship, Free support &amp; merit admission</li></ul>
+      <button class="btn btn--inverse" type="button" data-open-form="counselling">Request a call back <svg class="icon icon--20" aria-hidden="true"><use href="#i-phone"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<section class="a-contact on-dark" id="contact" aria-labelledby="contactTitle">
+  <div class="container">
+    <h2 class="a-contact__h" id="contactTitle" data-split>Still have questions?</h2>
+    <p class="a-contact__lede">Our admission counselors are here to help you make the best decision for your career</p>
+    <div class="a-contact__list">
+      <a class="a-call" id="ctChat" href="#" data-open-form="counselling" data-channel="whatsapp">
+        <span class="a-call__ic"><svg class="icon icon--24" aria-hidden="true"><use href="#i-chat"/></svg></span>
+        <span class="a-call__t">Chat with us</span><span class="a-call__d">Chat with our counselors instantly</span>
+        <svg class="icon icon--24 a-call__arr" aria-hidden="true"><use href="#i-chev-r"/></svg>
+      </a>
+      <a class="a-call" id="ctCall" href="#" data-open-form="counselling" data-channel="phone">
+        <span class="a-call__ic"><svg class="icon icon--24" aria-hidden="true"><use href="#i-phone"/></svg></span>
+        <span class="a-call__t">Call us</span><span class="a-call__d">Speak with our experts directly</span>
+        <svg class="icon icon--24 a-call__arr" aria-hidden="true"><use href="#i-chev-r"/></svg>
+      </a>
+      <a class="a-call" id="ctMail" href="#" data-open-form="counselling" data-channel="email">
+        <span class="a-call__ic"><svg class="icon icon--24" aria-hidden="true"><use href="#i-mail"/></svg></span>
+        <span class="a-call__t">Mail us</span><span class="a-call__d">Get detailed information via email</span>
+        <svg class="icon icon--24 a-call__arr" aria-hidden="true"><use href="#i-chev-r"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="footer-logo" href="#top" aria-label="Desun Academy, back to top"><img src="assets/img/logo-footer.png" alt="Desun Academy, get placed by skills" width="364" height="110"></a>
+        <p class="footer-about"><strong>Award-winning, job-oriented tech institute in India.</strong></p>
+        <p class="footer-about">We offer industry-backed training in Digital Marketing, UI/UX Design with AI, and MERN Stack Development, with 100% placement support.</p>
+      </div>
+      <nav class="footer-col" aria-label="Company">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="success.html">Placement</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="interview.html">Interview</a></li>
+          <li><a href="winter-contest.html">Winter Contest</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="events.html">Upcoming events</a></li>
+          <li><a href="partner.html">Become an Associate Partner</a></li>
+        </ul>
+      </nav>
+      <div class="footer-col">
+        <nav aria-label="Courses">
+          <h3>Courses</h3>
+          <ul>
+            <li><a href="courses.html">UI/UX and Graphics with AI Course</a></li>
+            <li><a href="index.html#programs">MERN Stack Development</a></li>
+            <li><a href="index.html#programs">Digital Marketing Course</a></li>
+            <li><a href="index.html#programs">Web Design Course</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-col footer-contact">
+        <h3>Contact</h3>
+        <!-- Social URLs are placeholders (the design shows icons only). -->
+        <div class="socials"><a href="#" aria-label="WhatsApp" id="soWhatsapp"><svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><rect width="48" height="48" rx="10" fill="#25D366"/><g transform="translate(9 9) scale(1.25)" fill="#fff"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35M12.05 21.78h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88M20.46 3.49A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.42"/></g></svg></a><a href="#" aria-label="Email" id="soMail"><svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><rect width="48" height="48" rx="10" fill="#fff"/><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 33V16" stroke="#4285F4" stroke-width="4"/><path d="M36 33V16" stroke="#34A853" stroke-width="4"/><path d="M12 16l12 9 12-9" stroke="#EA4335" stroke-width="4"/><path d="M36 16v0" stroke="#FBBC04" stroke-width="4"/></g></svg></a><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><rect width="48" height="48" rx="10" fill="#0A66C2"/><g transform="translate(9 9) scale(1.25)" fill="#fff"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zm1.78 13.02H3.56V9h3.56v11.45z"/></g></svg></a><a href="#" aria-label="Instagram"><svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><defs><linearGradient id="igg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#FEDA75"/><stop offset=".35" stop-color="#FA7E1E"/><stop offset=".65" stop-color="#D62976"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs><rect width="48" height="48" rx="10" fill="url(#igg)"/><g fill="none" stroke="#fff" stroke-width="3"><rect x="11" y="11" width="26" height="26" rx="8"/><circle cx="24" cy="24" r="6.5"/></g><circle cx="32" cy="16" r="2" fill="#fff"/></svg></a><a href="#" aria-label="YouTube"><svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><rect width="48" height="48" rx="10" fill="#E62117"/><rect x="9" y="14" width="30" height="20" rx="6" fill="#fff"/><path d="M21 19.5v9l8-4.5z" fill="#E62117"/></svg></a><a href="#" aria-label="Facebook"><svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><rect width="48" height="48" rx="10" fill="#1877F2"/><path d="M26 38V26h4l.7-5H26v-3c0-1.4.5-2.4 2.5-2.4H31v-4.4c-.4 0-1.9-.2-3.6-.2-3.6 0-6 2.2-6 6.2V21h-4v5h4v12h4.6z" fill="#fff"/></svg></a></div>
+      </div>
+      <div class="footer-col">
+        <h3>Address</h3>
+        <address>11th Floor, Room No. 1104, Ambuja Neotia Eco Station, BP Block, Sector V, Salt Lake, Kolkata, West Bengal, India &ndash; 700091</address>
+      </div>
+    </div>
+    <div class="footer-wordmark" aria-hidden="true">Desun Academy</div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> <strong>Desun Academy</strong>. A unit of DESUN Tech Foundation. All rights reserved.</p>
+      <p>Desun Technology Pvt Ltd</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ======================= COUNSELLING MODAL ======================= -->
+<dialog class="modal" id="formModal" aria-labelledby="formTitle">
+  <div class="modal__inner">
+    <div class="modal__head">
+      <div>
+        <h2 class="modal__title" id="formTitle">Book a free counselling session</h2>
+        <p class="modal__desc" id="formDesc">Share your details and a counsellor will call you to plan your career path.</p>
+      </div>
+      <button class="modal__close" type="button" data-close-form aria-label="Close"><svg class="icon icon--24" aria-hidden="true"><use href="#i-x"/></svg></button>
+    </div>
+
+    <form class="modal__form" id="counsellingForm" novalidate>
+      <div class="form-grid">
+        <div class="field">
+          <label for="fName">Full name</label>
+          <input id="fName" name="name" type="text" autocomplete="name" placeholder="e.g. Riya Sen" required aria-describedby="eName">
+          <p class="field__error" id="eName"><svg class="icon icon--16" aria-hidden="true"><use href="#i-alert"/></svg><span>Enter your full name</span></p>
+        </div>
+        <div class="field">
+          <label for="fPhone">Mobile number</label>
+          <input id="fPhone" name="phone" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder="10-digit mobile number" required aria-describedby="ePhone">
+          <p class="field__error" id="ePhone"><svg class="icon icon--16" aria-hidden="true"><use href="#i-alert"/></svg><span>Enter a 10-digit mobile number</span></p>
+        </div>
+        <div class="field">
+          <label for="fEmail">Email <span class="opt">(optional)</span></label>
+          <input id="fEmail" name="email" type="email" autocomplete="email" placeholder="name@example.com" aria-describedby="eEmail">
+          <p class="field__error" id="eEmail"><svg class="icon icon--16" aria-hidden="true"><use href="#i-alert"/></svg><span>Enter a valid email address, like name@example.com</span></p>
+        </div>
+        <div class="field">
+          <label for="fProgram">Program you&rsquo;re interested in</label>
+          <select id="fProgram" name="program" required aria-describedby="eProgram"></select>
+          <p class="field__error" id="eProgram"><svg class="icon icon--16" aria-hidden="true"><use href="#i-alert"/></svg><span>Choose a program</span></p>
+        </div>
+      </div>
+      <div class="modal__actions">
+        <button class="btn btn--block" type="submit" id="formSubmit"><span class="btn__label">Book free session</span></button>
+        <button class="btn btn--text btn--block" type="button" data-close-form>Cancel</button>
+      </div>
+    </form>
+
+    <div class="modal__success" id="formSuccess" role="status">
+      <span class="icon-circle"><svg class="icon" aria-hidden="true"><use href="#i-circle-check"/></svg></span>
+      <h2 class="modal__title" id="successTitleModal">Thank you</h2>
+      <p class="modal__desc" id="successDesc"></p>
+      <button class="btn btn--block" type="button" data-close-form id="successClose">Done</button>
+    </div>
+  </div>
+</dialog>
+
+<script src="assets/js/vendor/gsap.min.js"></script>
+<script src="assets/js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/script.js" defer></script>
+<script src="js/courses.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+/* JOB DATA — one object per opening.
+   Today this is a static list so the pages work offline. To feed it from the backend, replace this file with:
+     window.DESUN_JOBS = await (await fetch('/api/jobs')).json();   // same field names
+   or load the JSON before jobs.js runs. Field names below are what jobs.js reads.
+   NOTE: only the first job (IEMLabs) was fully supplied in the design screenshots. For the other six, title, company
+   and location are real; CTC/dates/description/skills are PLACEHOLDERS so the detail page has something to show. */
+window.DESUN_JOBS = [
+  { id: 'iemlabs-digital-marketing-intern', title: 'Digital Marketing Intern', company: 'IEMLabs', location: 'Godrej Genesis Building, Sector V, Kolkata, West Bengal', area: 'Sector V', dept: 'dm', deptLabel: 'Digital Marketing',
+    posted: '2026-11-19', start: '2026-11-18', applyBy: '2026-11-28', ctc: '₹8,000 per month', exp: 'Not disclosed', openings: 2, applicants: '100+', level: 'Fresher',
+    role: 'Digital Marketing Intern', industry: 'Educational institute', department: 'Digital Marketing', employment: 'Intern', category: 'Digital Marketing',
+    desc: ['Support daily digital marketing operations and campaign activities.', 'Conduct keyword research and competitor analysis for SEO.', 'Assist with on-page SEO and basic content optimization.', 'Support the planning, setup and monitoring of Google Ads and Meta Ads campaigns under guidance.', 'Research target audiences, market trends and competitors.', 'Help create and proofread content for websites, landing pages and social media.', 'Monitor campaign performance and assist in preparing marketing reports.', 'Coordinate with cross-functional teams and maintain campaign records and documentation.'],
+    edu: ['Basic understanding of digital marketing concepts and major platforms.', 'Familiarity with SEO fundamentals and keyword research is preferred.'],
+    skills: ['Digital Marketing Fundamentals', 'Search Engine Optimization (SEO)', 'Keyword Research', 'Competitor Analysis', 'Google Ads', 'Meta Ads', 'Content Optimization', 'Market Research', 'Performance Reporting'],
+    about: 'IEMLabs is a CERT-In Empanelled cyber security company based in Kolkata, West Bengal, India, and a business unit of IEMA Research & Development Pvt. Ltd. For more than 10 years, we have upskilled people with our job-ready professional courses in Cybersecurity, Networking, Programming, Web Development, AIML, Data Science, Cloud Computing, Robotics, Design & Cinematography, and Digital Marketing.' },
+  { id: 'global-it-hr-recruiter', title: 'HR Recruiter / Talent Acquisition Executive', company: 'Global IT Solutions', location: 'New Town, Kolkata, West Bengal', area: 'New Town', dept: 'hr', deptLabel: 'HR',
+    posted: '2026-11-19', start: '', applyBy: '', ctc: 'Not disclosed', exp: 'Not disclosed', openings: 0, applicants: '', level: '',
+    role: 'HR Recruiter / Talent Acquisition Executive', industry: 'IT services', department: 'Human Resources', employment: 'Full time', category: 'Human Resources',
+    desc: ['Source candidates through job portals, social platforms and referrals.', 'Screen resumes and conduct first-round telephonic interviews.', 'Coordinate interview schedules between candidates and hiring managers.', 'Maintain the recruitment tracker and candidate database.'],
+    edu: ['Graduate in any stream; HR specialisation is a plus.'], skills: ['Talent Acquisition', 'Sourcing', 'Resume Screening', 'Communication', 'Interview Coordination'],
+    about: 'Global IT Solutions is a technology services company based in Kolkata.' },
+  { id: 'leadheight-graphic-designer', title: 'Graphic Designer', company: 'Lead Height', location: 'Kolkata, West Bengal', area: 'Kolkata', dept: 'design', deptLabel: 'Design',
+    posted: '2026-11-19', start: '', applyBy: '', ctc: 'Not disclosed', exp: 'Not disclosed', openings: 0, applicants: '', level: '',
+    role: 'Graphic Designer', industry: 'Marketing services', department: 'Design', employment: 'Full time', category: 'Design',
+    desc: ['Design social media creatives, banners and brand collateral.', 'Work with the marketing team to turn briefs into on-brand visuals.', 'Prepare print-ready and web-ready files.', 'Keep a consistent visual system across campaigns.'],
+    edu: ['Portfolio of graphic design work.', 'Working knowledge of Figma, Photoshop or Illustrator.'], skills: ['Graphic Design', 'Figma', 'Photoshop', 'Illustrator', 'Branding'],
+    about: 'Lead Height is a marketing services company based in Kolkata.' },
+  { id: 'leadheight-off-page-seo-specialist', title: 'Off-Page SEO Specialist', company: 'Lead Height', location: 'Chinar Park, Kolkata, West Bengal', area: 'Chinar Park', dept: 'dm', deptLabel: 'Digital Marketing',
+    posted: '2026-11-19', start: '', applyBy: '', ctc: 'Not disclosed', exp: 'Not disclosed', openings: 0, applicants: '', level: '',
+    role: 'Off-Page SEO Specialist', industry: 'Marketing services', department: 'Digital Marketing', employment: 'Full time', category: 'Digital Marketing',
+    desc: ['Plan and run link-building and outreach campaigns.', 'Track backlinks, domain metrics and competitor profiles.', 'Submit and manage listings, guest posts and citations.', 'Report ranking and traffic movement to the SEO lead.'],
+    edu: ['Understanding of off-page SEO and link-building practices.'], skills: ['Off-Page SEO', 'Link Building', 'Outreach', 'Ahrefs / SEMrush', 'Reporting'],
+    about: 'Lead Height is a marketing services company based in Kolkata.' },
+  { id: 'leadheight-seo-executive', title: 'SEO Executive', company: 'Lead Height', location: 'Chinar Park, Kolkata, West Bengal', area: 'Chinar Park', dept: 'dm', deptLabel: 'Digital Marketing',
+    posted: '2026-11-19', start: '', applyBy: '', ctc: 'Not disclosed', exp: 'Not disclosed', openings: 0, applicants: '', level: '',
+    role: 'SEO Executive', industry: 'Marketing services', department: 'Digital Marketing', employment: 'Full time', category: 'Digital Marketing',
+    desc: ['Run keyword research and on-page optimisation for client websites.', 'Audit sites and fix technical SEO issues with the dev team.', 'Create monthly SEO reports for clients.', 'Support content teams with briefs and optimisation.'],
+    edu: ['Knowledge of on-page, off-page and technical SEO.'], skills: ['SEO', 'Keyword Research', 'Google Search Console', 'Site Audits', 'Reporting'],
+    about: 'Lead Height is a marketing services company based in Kolkata.' },
+  { id: 'leadheight-social-media-executive', title: 'Social Media Executive', company: 'Lead Height', location: 'Chinar Park, Kolkata, West Bengal', area: 'Chinar Park', dept: 'dm', deptLabel: 'Digital Marketing',
+    posted: '2026-11-19', start: '', applyBy: '', ctc: 'Not disclosed', exp: 'Not disclosed', openings: 0, applicants: '', level: '',
+    role: 'Social Media Executive', industry: 'Marketing services', department: 'Digital Marketing', employment: 'Full time', category: 'Digital Marketing',
+    desc: ['Plan content calendars and publish across social platforms.', 'Coordinate with designers and video editors for posts and reels.', 'Monitor engagement and respond to the community.', 'Report weekly on reach, growth and campaign performance.'],
+    edu: ['Understanding of Instagram, Facebook and LinkedIn marketing.'], skills: ['Social Media Marketing', 'Content Calendar', 'Reels', 'Analytics', 'Copywriting'],
+    about: 'Lead Height is a marketing services company based in Kolkata.' },
+  { id: 'webart-smo-intern', title: 'SMO Intern (Social Media Optimization Intern)', company: 'WebArt Technology Pvt. Ltd.', location: 'Kolkata, West Bengal', area: 'Kolkata', dept: 'dm', deptLabel: 'Digital Marketing',
+    posted: '2026-11-19', start: '', applyBy: '', ctc: 'Not disclosed', exp: 'Not disclosed', openings: 0, applicants: '', level: 'Fresher',
+    role: 'SMO Intern', industry: 'IT services', department: 'Digital Marketing', employment: 'Intern', category: 'Digital Marketing',
+    desc: ['Optimise social profiles and posts for reach and engagement.', 'Support the team with posting schedules and community replies.', 'Research hashtags, trends and competitor pages.', 'Prepare simple weekly performance notes.'],
+    edu: ['Basic understanding of social media platforms.'], skills: ['Social Media Optimization', 'Content Research', 'Hashtag Research', 'Analytics Basics'],
+    about: 'WebArt Technology Pvt. Ltd. is a web and digital services company based in Kolkata.' }
+];
